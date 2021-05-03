@@ -38,8 +38,7 @@ public class Bill {
         this.overdraftEnabled = overdraftEnabled;
     }
 
-    public Bill(Long billId, Long accountId, BigDecimal amount, Boolean isDefault, Boolean overdraftEnabled) {
-        this.billId = billId;
+    public Bill(Long accountId, BigDecimal amount, Boolean isDefault, Boolean overdraftEnabled) {
         this.accountId = accountId;
         this.amount = amount;
         this.isDefault = isDefault;

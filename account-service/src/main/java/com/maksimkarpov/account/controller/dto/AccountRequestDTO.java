@@ -3,7 +3,6 @@ package com.maksimkarpov.account.controller.dto;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 
-import java.time.OffsetDateTime;
 import java.util.List;
 
 @Getter
@@ -17,6 +16,4 @@ public class AccountRequestDTO {
     private String phone;
 
     private List <Long> bills;
-
-    private OffsetDateTime creationDate;
 }
